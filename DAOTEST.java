@@ -15,7 +15,7 @@ public class DAOTEST {
 
             // Fetch & print projects
             List<Project> projects = dao.getAllProjects();
-            System.out.println("📋 Projects in Database:");
+            System.out.println("Projects in Database:");
             for (Project p : projects) {
                 System.out.println(
                         p.getId() + " | " +
